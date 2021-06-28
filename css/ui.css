@@ -1,0 +1,84 @@
+html {
+    background-color: darkturquoise;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    float: right;
+    width: 100%;
+}
+.text-info{
+    font-family: 'Courier New', Courier, monospace;
+}
+.a{
+    text-decoration: none;
+}
+textarea {
+    height: 1em;
+    width: 50%;
+    padding: 3px;
+    transition: all 0.5s ease;
+}
+
+textarea:focus {
+    height: 4em;
+    width: 40em;
+}
+.a :hover {
+    background-color: mintcream;
+}
+
+.header{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+
+.navbar a{
+    display: block;
+   margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: thin solid white;
+    border-radius: 0.5em;
+    color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: decimal;
+}
+
+.navbar a:hover{
+    background-color: mintcream;
+}
+
+.form-control{
+    width: 80%;
+}
+
+.formbutton{
+    margin-top: 10px;
+}
+.confirm {
+
+    color: greenyellow;
+  }
+
+@media (max-width : 768px) {
+    #navbar1{
+      border-right: thin solid white;
+        margin-left:0%;
+        padding-right: 10px;
+    
+        
+     }
+
+     #navbar1 a{
+         margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+         display: inline-block;
+     }
+
+    }
+
+   

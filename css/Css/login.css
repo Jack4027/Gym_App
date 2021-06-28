@@ -1,0 +1,16 @@
+
+.loghead{
+    margin-left: 20px;
+}
+
+.login {
+    float: right;
+}
+
+
+@media (max-width : 672px) {
+
+    .login{
+        margin-left: 10px;
+    }
+        }

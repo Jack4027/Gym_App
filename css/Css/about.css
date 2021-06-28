@@ -1,0 +1,29 @@
+li{
+    list-style: none;
+}
+#about{
+    margin-top: 3%;
+}
+#contact-head{
+    margin-top: 3%;
+}
+#contact{
+  padding-left: 0%;  
+}
+.content{
+    margin-left: 10%;
+}
+.bord{
+padding-top: 10px;
+}
+
+
+
+@media (max-width: 350px) {
+    #contact-head{
+        font-size: 1.25em;
+    }
+    #contact{
+        font-size: 0.6em;
+    }
+}
